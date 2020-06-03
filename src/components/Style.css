@@ -1,0 +1,71 @@
+.styleHead
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+.searchStyle
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: rgb(203,227,254);
+	height: 30vh;
+}
+.searchStyle >span
+{
+	font-size: 2em;
+	margin-top:20px	;
+}
+.searchStyle >input
+{
+	width: 900px;
+	margin: auto;
+	border:none;
+	border-radius: 6px 6px 6px 6px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.searchStyle >button
+{
+	width: 100px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.styleFilmList
+{
+	background-color: red;
+	width: 90%;
+	margin: auto;
+	position: relative;
+	top:260px;
+}
+.StyleForm
+{
+	width: 80%;
+	margin:auto;
+	position: relative;
+	top:200px;	 
+
+}
+.styleDetails
+{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 280px;
+	border: none;
+	box-shadow: 4px 4px 4px 4px blue;
+}
+.StyleButtonSerach
+{
+	position: relative;
+	top:7px;
+}
